@@ -65,18 +65,19 @@ h1 {
 }
 #choosen-number {
   height: 120px;
-  padding-left: 50px;
+  padding-left: 105px;
   width: 250px;
   background-color: #222;
   color: #fff;
   margin-bottom: 15px;
-  font-size: 29px;
+  font-size: 45px;
 }
 #confirm {
   border-radius: 20px;
   color: #fff;
   background-color: #222;
   padding: 10px;
+  cursor: pointer;
 }
 
 #feedback {
@@ -87,10 +88,17 @@ h1 {
 
 #situation {
   margin-bottom: 65px;
+  width: 210px;
 }
 
 #score-field {
   margin-bottom: 20px;
+}
+
+#score,
+#highscore {
+  color: #777;
+  margin-left: 8px;
 }
 footer {
   height: 10vh;
