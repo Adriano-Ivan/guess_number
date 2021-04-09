@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #fff;
+}
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+header {
+  background-color: #222;
+  height: 10vh;
+}
+#between-header {
+  max-width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 20px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+#between-header div {
+  font-size: 20px;
+  margin: 15px 0;
+}
+#number-showed {
+  background-color: #223;
+}
+#show-number {
+  max-width: inherit;
+  height: 26vh;
+  display: flex;
+  justify-content: center;
+}
+#number {
+  width: 195px;
+  border-radius: 195px;
+  height: 195px;
+  background-color: #f000;
+  border: 1px solid #fff;
+  margin-bottom: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+#user-interact {
+  height: 55vh;
+  background-color: #238;
+}
+#tools-feedback {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+#button-and-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  margin-left: 50px;
+}
+#choosen-number {
+  height: 120px;
+  padding-left: 50px;
+  width: 250px;
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 29px;
+}
+#confirm {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #222;
+  padding: 10px;
+}
+
+#feedback {
+  margin-top: 75px;
+  margin-right: 90px;
+  font-size: 24px;
+}
+
+#situation {
+  margin-bottom: 65px;
+}
+
+#score-field {
+  margin-bottom: 20px;
+}
+footer {
+  height: 10vh;
+  background-color: #223;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

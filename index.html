@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="between-header">
+          <h1>GUESS THE NUMBER !</h1>
+          <div>BETWEEN 1 AND 30</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="number-showed">
+        <div class="container">
+          <div id="show-number">
+            <div id="number">?</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="user-interact">
+        <div class="container">
+          <div id="tools-feedback">
+            <div id="button-and-input">
+              <input type="number" id="choosen-number" />
+              <button id="confirm">GUESS</button>
+            </div>
+            <div id="feedback">
+              <div id="situation">Start guessing...</div>
+
+              <div id="datas">
+                <div id="score-field">Score: <span id="score"></span></div>
+                <div id="highscore-field">
+                  Highscore: <span id="highscore"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Todos os direitos reservados<br />
+      Criado por Adriano Ivan
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
