@@ -17,6 +17,7 @@ header {
   max-width: inherit;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 h1 {
   font-size: 20px;
@@ -78,6 +79,7 @@ h1 {
   background-color: #222;
   padding: 10px;
   cursor: pointer;
+  outline: none;
 }
 
 #feedback {
@@ -95,6 +97,18 @@ h1 {
   margin-bottom: 20px;
 }
 
+#again-button {
+  height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  background-color: #00f;
+  border: 1px solid #000;
+  color: #fff;
+  border-radius: 15px;
+  margin-right: 20px;
+  outline: none;
+}
 #score,
 #highscore {
   color: #777;
